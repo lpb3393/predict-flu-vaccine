@@ -21,11 +21,17 @@ After exploring the datasets, I thought the best approach would be to join the t
 In this section, I wanted to first compare the proportions of people getting vaccinated. I then wanted to see how many Null values were in the dataset and fill those blank values with the columns "mode." Then to prep the data for modeling, I split the data between a training set and a test set, using a Train Test Split. This allows for the model to train on the dataset but when running the analysis on the test set, it is new data the model hasn't seen.
 
 ![concern](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/concern.PNG)
+
 ![doc_recc](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/doc_recc.PNG)
+
 ![effective](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/effective.PNG)
+
 ![healthinsurance](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/healthinsurance.PNG)
+
 ![knowledge](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/knowledge.PNG)
+
 ![risk](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/risk.PNG)
+
 
 
 # Modeling
@@ -34,6 +40,7 @@ In this section, I wanted to first compare the proportions of people getting vac
 
 
 ![featureimportance](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/featureimportance.PNG)
+
 ![confusionmatrix](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/confusionmatrix.PNG)
 
 
