@@ -4,6 +4,8 @@ Vaccines are crutial in many ways but most importantly because they can prevent 
 
 The business problem I wanting to solve is can we predict who will recieve the H1N1 vaccine given information that was collected from the National 2009 H1N1 Flu Survey (NHFS). I also want to make recommendations to Pfizer on how they can maximize the number of people to get vaccinated in the future.
 
+![doctor](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/doctor.PNG)
+
 # Data Understanding
 
 The National 2009 H1N1 Flu Survey (NHFS) was sponsored by the National Center for Immunization and Respiratory Diseases (NCIRD) and conducted jointly by NCIRD and the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC). The NHFS was a list-assisted random-digit-dialing telephone survey of households, designed to monitor influenza immunization coverage in the 2009-10 season.
@@ -18,10 +20,21 @@ After exploring the datasets, I thought the best approach would be to join the t
 
 In this section, I wanted to first compare the proportions of people getting vaccinated. I then wanted to see how many Null values were in the dataset and fill those blank values with the columns "mode." Then to prep the data for modeling, I split the data between a training set and a test set, using a Train Test Split. This allows for the model to train on the dataset but when running the analysis on the test set, it is new data the model hasn't seen.
 
+![concern](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/concern.PNG)
+![doc_recc](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/doc_recc.PNG)
+![effective](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/effective.PNG)
+![healthinsurance](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/healthinsurance.PNG)
+![knowledge](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/knowledge.PNG)
+![risk](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/risk.PNG)
+
 
 # Modeling
 
 In this section, I wanted to first compare the proportions of people getting vaccinated. I then wanted to see how many Null values were in the dataset and fill those blank values with the columns "mode." Then to prep the data for modeling, I split the data between a training set and a test set, using a Train Test Split. This allows for the model to train on the dataset but when running the analysis on the test set, it is new data the model hasn't seen.
+
+
+![featureimportance](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/featureimportance.PNG)
+![confusionmatrix](https://github.com/lpb3393/predict-flu-vaccine/blob/main/photos/confusionmatrix.PNG)
 
 
 # Evaluation
@@ -51,7 +64,7 @@ See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/predi
 ```
 ├── photos
 ├── .gitignore
-├── Home Renovations Presentation.pdf
-├── Home Renovations.ipynb
+├── 
+├── predict-flu-vaccines.ipynb
 └── readme.md
 ```
