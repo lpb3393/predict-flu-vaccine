@@ -69,12 +69,12 @@ Something that would be interesting and informative would be to see how this dat
 
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/predict-flu-vaccine/blob/main/predict-flu-vaccines.ipynb) or review the [presentation](https://github.com/lpb3393/Home_Renovations/blob/main/Home%20Renovations%20Presentation.pdf)
+See the full analysis in the [Jupyter Notebook](https://github.com/lpb3393/predict-flu-vaccine/blob/main/predict-flu-vaccines.ipynb) or review the [presentation](https://github.com/lpb3393/predict-flu-vaccine/blob/main/predict-flu-vaccine-presentation.pdf)
 
 ```
 ├── photos
 ├── .gitignore
-├── 
-├── predict-flu-vaccines.ipynb
-└── readme.md
+├── README.md
+├── predict-flu-vaccine-presentation.pdf
+└── predict-flu-vaccines.ipynb
 ```
